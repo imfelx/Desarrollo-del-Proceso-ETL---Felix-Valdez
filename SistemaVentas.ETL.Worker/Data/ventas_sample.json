@@ -1,0 +1,452 @@
+[
+  {
+    "orderID": 1,
+    "customerID": 348,
+    "orderDate": "2024-11-15",
+    "status": "Shipped",
+    "productID": 885,
+    "quantity": 1,
+    "totalPrice": 677.18
+  },
+  {
+    "orderID": 1,
+    "customerID": 348,
+    "orderDate": "2024-11-15",
+    "status": "Shipped",
+    "productID": 1937,
+    "quantity": 6,
+    "totalPrice": 965.22
+  },
+  {
+    "orderID": 2,
+    "customerID": 4744,
+    "orderDate": "2025-03-22",
+    "status": "Shipped",
+    "productID": 1550,
+    "quantity": 7,
+    "totalPrice": 4823.14
+  },
+  {
+    "orderID": 2,
+    "customerID": 4744,
+    "orderDate": "2025-03-22",
+    "status": "Shipped",
+    "productID": 68,
+    "quantity": 2,
+    "totalPrice": 500.56
+  },
+  {
+    "orderID": 3,
+    "customerID": 1368,
+    "orderDate": "2024-10-05",
+    "status": "Cancelled",
+    "productID": 78,
+    "quantity": 1,
+    "totalPrice": 905.31
+  },
+  {
+    "orderID": 3,
+    "customerID": 1368,
+    "orderDate": "2024-10-05",
+    "status": "Cancelled",
+    "productID": 4,
+    "quantity": 8,
+    "totalPrice": 5342.72
+  },
+  {
+    "orderID": 4,
+    "customerID": 1966,
+    "orderDate": "2024-07-20",
+    "status": "Delivered",
+    "productID": 1256,
+    "quantity": 7,
+    "totalPrice": 1398.81
+  },
+  {
+    "orderID": 4,
+    "customerID": 1966,
+    "orderDate": "2024-07-20",
+    "status": "Delivered",
+    "productID": 485,
+    "quantity": 1,
+    "totalPrice": 850.42
+  },
+  {
+    "orderID": 5,
+    "customerID": 4387,
+    "orderDate": "2024-06-28",
+    "status": "Shipped",
+    "productID": 1400,
+    "quantity": 8,
+    "totalPrice": 5135.6
+  },
+  {
+    "orderID": 6,
+    "customerID": 580,
+    "orderDate": "2024-08-14",
+    "status": "Delivered",
+    "productID": 1764,
+    "quantity": 8,
+    "totalPrice": 5205.92
+  },
+  {
+    "orderID": 7,
+    "customerID": 2806,
+    "orderDate": "2024-10-15",
+    "status": "Delivered",
+    "productID": 1526,
+    "quantity": 10,
+    "totalPrice": 7174.2
+  },
+  {
+    "orderID": 8,
+    "customerID": 4446,
+    "orderDate": "2024-11-22",
+    "status": "Cancelled",
+    "productID": 1587,
+    "quantity": 6,
+    "totalPrice": 5819.94
+  },
+  {
+    "orderID": 9,
+    "customerID": 3277,
+    "orderDate": "2023-09-29",
+    "status": "Cancelled",
+    "productID": 515,
+    "quantity": 10,
+    "totalPrice": 3908.7
+  },
+  {
+    "orderID": 9,
+    "customerID": 3277,
+    "orderDate": "2023-09-29",
+    "status": "Cancelled",
+    "productID": 1691,
+    "quantity": 5,
+    "totalPrice": 4186.2
+  },
+  {
+    "orderID": 9,
+    "customerID": 3277,
+    "orderDate": "2023-09-29",
+    "status": "Cancelled",
+    "productID": 670,
+    "quantity": 4,
+    "totalPrice": 3481.56
+  },
+  {
+    "orderID": 9,
+    "customerID": 3277,
+    "orderDate": "2023-09-29",
+    "status": "Cancelled",
+    "productID": 1102,
+    "quantity": 4,
+    "totalPrice": 1107.24
+  },
+  {
+    "orderID": 9,
+    "customerID": 3277,
+    "orderDate": "2023-09-29",
+    "status": "Cancelled",
+    "productID": 996,
+    "quantity": 7,
+    "totalPrice": 6729.94
+  },
+  {
+    "orderID": 10,
+    "customerID": 3374,
+    "orderDate": "2024-05-04",
+    "status": "Shipped",
+    "productID": 1776,
+    "quantity": 2,
+    "totalPrice": 842.78
+  },
+  {
+    "orderID": 10,
+    "customerID": 3374,
+    "orderDate": "2024-05-04",
+    "status": "Shipped",
+    "productID": 217,
+    "quantity": 8,
+    "totalPrice": 4158.56
+  },
+  {
+    "orderID": 10,
+    "customerID": 3374,
+    "orderDate": "2024-05-04",
+    "status": "Shipped",
+    "productID": 1326,
+    "quantity": 6,
+    "totalPrice": 3910.32
+  },
+  {
+    "orderID": 10,
+    "customerID": 3374,
+    "orderDate": "2024-05-04",
+    "status": "Shipped",
+    "productID": 1813,
+    "quantity": 10,
+    "totalPrice": 7139.8
+  },
+  {
+    "orderID": 10,
+    "customerID": 3374,
+    "orderDate": "2024-05-04",
+    "status": "Shipped",
+    "productID": 479,
+    "quantity": 5,
+    "totalPrice": 3612.15
+  },
+  {
+    "orderID": 11,
+    "customerID": 2781,
+    "orderDate": "2025-04-16",
+    "status": "Shipped",
+    "productID": 144,
+    "quantity": 4,
+    "totalPrice": 3772.32
+  },
+  {
+    "orderID": 12,
+    "customerID": 1098,
+    "orderDate": "2024-07-30",
+    "status": "Pending",
+    "productID": 1028,
+    "quantity": 4,
+    "totalPrice": 2586.76
+  },
+  {
+    "orderID": 12,
+    "customerID": 1098,
+    "orderDate": "2024-07-30",
+    "status": "Pending",
+    "productID": 1443,
+    "quantity": 7,
+    "totalPrice": 4906.37
+  },
+  {
+    "orderID": 12,
+    "customerID": 1098,
+    "orderDate": "2024-07-30",
+    "status": "Pending",
+    "productID": 421,
+    "quantity": 5,
+    "totalPrice": 2949.95
+  },
+  {
+    "orderID": 12,
+    "customerID": 1098,
+    "orderDate": "2024-07-30",
+    "status": "Pending",
+    "productID": 1936,
+    "quantity": 1,
+    "totalPrice": 851.18
+  },
+  {
+    "orderID": 12,
+    "customerID": 1098,
+    "orderDate": "2024-07-30",
+    "status": "Pending",
+    "productID": 771,
+    "quantity": 5,
+    "totalPrice": 2284.2
+  },
+  {
+    "orderID": 13,
+    "customerID": 4808,
+    "orderDate": "2024-12-29",
+    "status": "Shipped",
+    "productID": 1929,
+    "quantity": 3,
+    "totalPrice": 492.9
+  },
+  {
+    "orderID": 13,
+    "customerID": 4808,
+    "orderDate": "2024-12-29",
+    "status": "Shipped",
+    "productID": 827,
+    "quantity": 5,
+    "totalPrice": 940.35
+  },
+  {
+    "orderID": 14,
+    "customerID": 1767,
+    "orderDate": "2024-05-01",
+    "status": "Delivered",
+    "productID": 655,
+    "quantity": 8,
+    "totalPrice": 2157.44
+  },
+  {
+    "orderID": 14,
+    "customerID": 1767,
+    "orderDate": "2024-05-01",
+    "status": "Delivered",
+    "productID": 159,
+    "quantity": 9,
+    "totalPrice": 270.36
+  },
+  {
+    "orderID": 15,
+    "customerID": 3799,
+    "orderDate": "2024-10-29",
+    "status": "Shipped",
+    "productID": 906,
+    "quantity": 5,
+    "totalPrice": 4262.85
+  },
+  {
+    "orderID": 15,
+    "customerID": 3799,
+    "orderDate": "2024-10-29",
+    "status": "Shipped",
+    "productID": 841,
+    "quantity": 9,
+    "totalPrice": 3278.7
+  },
+  {
+    "orderID": 15,
+    "customerID": 3799,
+    "orderDate": "2024-10-29",
+    "status": "Shipped",
+    "productID": 1479,
+    "quantity": 8,
+    "totalPrice": 702.8
+  },
+  {
+    "orderID": 16,
+    "customerID": 2361,
+    "orderDate": "2025-06-09",
+    "status": "Shipped",
+    "productID": 1855,
+    "quantity": 4,
+    "totalPrice": 1519.12
+  },
+  {
+    "orderID": 16,
+    "customerID": 2361,
+    "orderDate": "2025-06-09",
+    "status": "Shipped",
+    "productID": 1024,
+    "quantity": 7,
+    "totalPrice": 3601.01
+  },
+  {
+    "orderID": 16,
+    "customerID": 2361,
+    "orderDate": "2025-06-09",
+    "status": "Shipped",
+    "productID": 1589,
+    "quantity": 7,
+    "totalPrice": 2217.67
+  },
+  {
+    "orderID": 16,
+    "customerID": 2361,
+    "orderDate": "2025-06-09",
+    "status": "Shipped",
+    "productID": 356,
+    "quantity": 5,
+    "totalPrice": 2796.15
+  },
+  {
+    "orderID": 17,
+    "customerID": 4134,
+    "orderDate": "2024-08-12",
+    "status": "Delivered",
+    "productID": 1538,
+    "quantity": 4,
+    "totalPrice": 2291.24
+  },
+  {
+    "orderID": 17,
+    "customerID": 4134,
+    "orderDate": "2024-08-12",
+    "status": "Delivered",
+    "productID": 1324,
+    "quantity": 8,
+    "totalPrice": 2997.28
+  },
+  {
+    "orderID": 17,
+    "customerID": 4134,
+    "orderDate": "2024-08-12",
+    "status": "Delivered",
+    "productID": 895,
+    "quantity": 9,
+    "totalPrice": 4348.53
+  },
+  {
+    "orderID": 17,
+    "customerID": 4134,
+    "orderDate": "2024-08-12",
+    "status": "Delivered",
+    "productID": 665,
+    "quantity": 5,
+    "totalPrice": 2366.4
+  },
+  {
+    "orderID": 17,
+    "customerID": 4134,
+    "orderDate": "2024-08-12",
+    "status": "Delivered",
+    "productID": 977,
+    "quantity": 3,
+    "totalPrice": 475.83
+  },
+  {
+    "orderID": 18,
+    "customerID": 4099,
+    "orderDate": "2024-02-24",
+    "status": "Shipped",
+    "productID": 380,
+    "quantity": 5,
+    "totalPrice": 773.9
+  },
+  {
+    "orderID": 18,
+    "customerID": 4099,
+    "orderDate": "2024-02-24",
+    "status": "Shipped",
+    "productID": 1454,
+    "quantity": 10,
+    "totalPrice": 7723.6
+  },
+  {
+    "orderID": 18,
+    "customerID": 4099,
+    "orderDate": "2024-02-24",
+    "status": "Shipped",
+    "productID": 499,
+    "quantity": 3,
+    "totalPrice": 2162.16
+  },
+  {
+    "orderID": 18,
+    "customerID": 4099,
+    "orderDate": "2024-02-24",
+    "status": "Shipped",
+    "productID": 180,
+    "quantity": 5,
+    "totalPrice": 3962.45
+  },
+  {
+    "orderID": 18,
+    "customerID": 4099,
+    "orderDate": "2024-02-24",
+    "status": "Shipped",
+    "productID": 665,
+    "quantity": 5,
+    "totalPrice": 2366.4
+  },
+  {
+    "orderID": 19,
+    "customerID": 3766,
+    "orderDate": "2025-08-06",
+    "status": "Delivered",
+    "productID": 2,
+    "quantity": 5,
+    "totalPrice": 1140.65
+  }
+]

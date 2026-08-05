@@ -1,0 +1,17 @@
+## .NET
+bin/
+obj/
+*.user
+
+## Staging generado en tiempo de ejecucion
+**/Staging/
+
+## Archivos de entorno / secretos
+appsettings.Development.json
+appsettings.Production.json
+*.env
+
+## Visual Studio / Rider
+.vs/
+.idea/
+*.suo
