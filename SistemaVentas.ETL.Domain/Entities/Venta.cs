@@ -1,9 +1,9 @@
 namespace SistemaVentas.ETL.Domain.Entities;
 
-/// <summary>
+
 /// Representa una línea de venta extraída desde el origen local de ventas.
 /// Corresponde al staging previo de FactVentas.
-/// </summary>
+
 public class Venta
 {
     public string NumeroFactura { get; set; } = string.Empty;

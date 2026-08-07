@@ -22,8 +22,20 @@ builder.Services.AddScoped<IStagingWriter<Producto>, JsonStagingWriter<Producto>
 builder.Services.AddScoped<IStagingWriter<Cliente>, JsonStagingWriter<Cliente>>();
 builder.Services.AddScoped<IStagingWriter<Venta>, JsonStagingWriter<Venta>>();
 
-// --- Orquestador y worker ---
+// --- Registro de lectores de staging (uno por entidad, usados en la fase de Carga) ---
+builder.Services.AddScoped<IStagingReader<Producto>, JsonStagingReader<Producto>>();
+builder.Services.AddScoped<IStagingReader<Cliente>, JsonStagingReader<Cliente>>();
+builder.Services.AddScoped<IStagingReader<Venta>, JsonStagingReader<Venta>>();
+
+// --- Registro de loaders hacia DW_SistemaVentas (fase de Carga) ---
+builder.Services.AddScoped<IDimensionLoader<Producto>, SqlProductoLoader>();
+builder.Services.AddScoped<IDimensionLoader<Cliente>, SqlClienteLoader>();
+builder.Services.AddScoped<ITiempoLoader, SqlTiempoLoader>();
+builder.Services.AddScoped<IVendedorSeeder, SqlVendedorSeeder>();
+
+// --- Orquestadores y worker ---
 builder.Services.AddScoped<ExtractionOrchestrator>();
+builder.Services.AddScoped<LoadOrchestrator>();
 builder.Services.AddHostedService<EtlWorker>();
 
 var host = builder.Build();

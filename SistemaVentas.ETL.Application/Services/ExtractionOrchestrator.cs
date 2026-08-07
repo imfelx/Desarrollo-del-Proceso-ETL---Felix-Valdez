@@ -5,10 +5,9 @@ using SistemaVentas.ETL.Domain.Interfaces;
 
 namespace SistemaVentas.ETL.Application.Services;
 
-/// <summary>
 /// Orquesta la ejecución de los extractores de forma asíncrona y en paralelo,
 /// y delega la escritura a staging.
-/// </summary>
+
 public class ExtractionOrchestrator
 {
     private readonly IExtractor<Producto> _productoExtractor;

@@ -1,9 +1,8 @@
 namespace SistemaVentas.ETL.Domain.Entities;
 
-/// <summary>
 /// Representa un cliente extraído desde la base de datos relacional de origen.
 /// Corresponde al staging previo de DimCliente.
-/// </summary>
+
 public class Cliente
 {
     public string ClienteID { get; set; } = string.Empty;

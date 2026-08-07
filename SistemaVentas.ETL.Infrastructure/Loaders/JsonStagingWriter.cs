@@ -5,10 +5,10 @@ using SistemaVentas.ETL.Domain.Interfaces;
 
 namespace SistemaVentas.ETL.Infrastructure.Loaders;
 
-/// <summary>
+
 /// Implementación genérica de staging que serializa los registros extraídos
 /// a archivos JSON temporales, organizados por lote.
-/// </summary>
+
 public class JsonStagingWriter<T> : IStagingWriter<T>
 {
     private readonly string _carpetaBase;

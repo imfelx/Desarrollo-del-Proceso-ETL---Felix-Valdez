@@ -6,10 +6,10 @@ using SistemaVentas.ETL.Domain.Interfaces;
 
 namespace SistemaVentas.ETL.Infrastructure.Extractors;
 
-/// <summary>
+
 /// Extrae registros de Análisis de ventas desde una API pública de datos.
-/// Consumo: JSONPlaceholder Posts API (simulando datos de ventas/análisis).
-/// </summary>
+
+
 public class AnalisisVentasApiExtractor : IExtractor<Venta>
 {
     private readonly HttpClient _httpClient;

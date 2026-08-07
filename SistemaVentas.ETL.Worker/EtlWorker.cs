@@ -2,11 +2,10 @@ using SistemaVentas.ETL.Application.Services;
 
 namespace SistemaVentas.ETL.Worker;
 
-/// <summary>
 /// Hosted service que dispara el proceso de extracción.
 /// Toda la lógica de orquestación vive en Application; este servicio
 /// solo se encarga del ciclo de vida dentro del host de .NET.
-/// </summary>
+
 public class EtlWorker : BackgroundService
 {
   
@@ -34,8 +33,14 @@ public class EtlWorker : BackgroundService
             try
             {
                 using var scope = _scopeFactory.CreateScope();
-                var orchestrator = scope.ServiceProvider.GetRequiredService<ExtractionOrchestrator>();
-                await orchestrator.EjecutarAsync(stoppingToken);
+
+                // Fase E: extrae de las 3 fuentes y escribe a Staging/
+                var extractionOrchestrator = scope.ServiceProvider.GetRequiredService<ExtractionOrchestrator>();
+                await extractionOrchestrator.EjecutarAsync(stoppingToken);
+
+                // Fase L: lee el staging recién escrito y carga las dimensiones del DW
+                var loadOrchestrator = scope.ServiceProvider.GetRequiredService<LoadOrchestrator>();
+                await loadOrchestrator.EjecutarAsync(stoppingToken);
             }
             catch (Exception ex)
             {
